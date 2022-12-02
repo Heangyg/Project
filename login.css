@@ -1,0 +1,49 @@
+
+#form {
+    background-color: rgb(227, 239, 255);
+    width: 25%;
+    margin: 120px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid rgb(41, 133, 255);
+    color: rgb(41, 133, 255);
+    font-family: cursive;
+    font-size: 20px;
+}
+#user, #pass {
+    font-size: 14px;
+    padding: 5px;
+    width: 250px;
+    height: 20px;
+    border-radius: 0;   
+    border-color: rgb(41, 133, 255);
+    font-family: monospace;
+    margin-bottom: 10px;
+    
+}
+h1 {    
+    color: rgb(41, 133, 255);
+    text-align: center;
+    font-size: 40px;
+}
+#btn {
+    color: rgb(41, 133, 255);
+    border: 1px solid rgb(41, 133, 255);
+    background-color: rgb(222, 231, 255);
+    padding: 10px;
+    font-size: large;
+    border-radius: 3px;
+    float: right;
+    font-family: monospace;
+}
+::placeholder {
+    color: rgb(41, 133, 255);
+}
+@media screen and (max-width: 700px){
+    #fomr {
+        width: 65%;
+        padding: 40px;
+    }
+    
+}

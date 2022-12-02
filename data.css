@@ -1,0 +1,19 @@
+#import:last-child {
+    float: right;
+}
+.box .add-data .form-b {
+    float: left;
+    margin-left: 250px;
+    margin-top: -400px;
+    color: rgb(41, 133, 255);
+    font-family: monospace;
+}
+#pic {
+    font: 20px;
+
+}
+.box .add-data .form-a {
+    color: rgb(41, 133, 255);
+    font-family: monospace;
+    float: left;
+}
